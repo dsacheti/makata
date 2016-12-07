@@ -1,6 +1,6 @@
 <?php
 
-namespace Mkapp\Entity;
+namespace MKapp\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
 

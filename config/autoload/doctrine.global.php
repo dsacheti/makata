@@ -1,12 +1,5 @@
 <?php
 
-/* 
- * Criado no NetBeans
- * por Dalcinei Sacheti
- * dalcinei@gmail.com
- * pode usar este arquivo, mas deixe este cabeçalho
- */
-
 return [
     'doctrine'=>[
         'connection' => [
@@ -30,7 +23,7 @@ return [
                 'class' => 'Doctrine\ORM\Mapping\Driver\AnnotationDriver',
                 'cache' => 'array',
                 'paths' => [
-                    __DIR__.'/../../src/MKapp/Entity',
+                    __DIR__.'/../../src/MKapp/Entity'
                     //__DIR__ . '/../../src/MKapp/Infrastructure/Persistence/Doctrine/ORM'
                 ]
             ],
@@ -38,9 +31,7 @@ return [
                 'drivers' => [
                     'MKapp\Entity' => 'MKapp_driver'
                 ]
-            ]
-            
-                
+            ]   
         ]
     ]
 ];

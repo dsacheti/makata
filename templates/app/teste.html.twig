@@ -1,0 +1,10 @@
+{% extends '@layout/default.html.twig' %}
+
+{% block title %}Teste{% endblock %}
+
+{% block content %}
+    {{ data}}
+    {% for categoria in categorias %}
+        {{ categoria.name}}<br/>
+    {% endfor %}
+{% endblock %}
