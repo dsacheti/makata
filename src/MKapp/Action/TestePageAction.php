@@ -37,7 +37,7 @@ class TestePageAction
         $this->em->flush();
         
         $categorias = $this->em->getRepository(\MKapp\Entity\Category::class)->findAll();
-        return new HtmlResponse($this->template->render("app:teste",[
+        return new HtmlResponse($this->template->render("app::teste",[
             'data' => 'Dados passados para o template',
             'categorias' => $categorias
             

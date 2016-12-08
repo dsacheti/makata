@@ -1,6 +1,6 @@
 <?php
 
-namespace Mkapp\Action;
+namespace MKapp\Action;
 
 use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\ServerRequestInterface;
