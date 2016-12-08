@@ -7,6 +7,6 @@ namespace MKapp\Service;
  *
  * @author DELL
  */
-interface BoostrapInterface {
+interface BootstrapInterface {
     public function create();
 }

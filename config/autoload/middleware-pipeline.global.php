@@ -1,8 +1,8 @@
 <?php
 use Zend\Expressive\Container\ApplicationFactory;
 use Zend\Expressive\Helper;
-use \Mkapp\Action\BootstrapAction;
-use \MKapp\Action\BootstrapActionFactory;
+use MKapp\Action\BootstrapAction;
+use MKapp\Action\BootstrapActionFactory;
 
 return [
     'dependencies' => [
